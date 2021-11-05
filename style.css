@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+
+	font-family: 'Metal Mania', cursive;
+	font-size: 38px;
+	color: #6c7279;
+
+	background-color: #000;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/*контейнер*/
+.container {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.container:hover {
+	color: fff;
+text-transform: uppercase;
+text-decoration: line-through;
+}
+
+.container1 {
+	color: fff;
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-right: 10%;
+}
+.container1:hover {
+text-transform: uppercase;
+text-decoration: line-through;
+}
+
+/*заголовок*/
+.header {
+font-family: 'Metal Mania', cursive;
+font-size: 50px;
+color: fff;
+padding: 2%;
+padding-left: 37%;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+	align-items: center;
+
+	border-bottom: 1px solid #6c7279;
+}
+
+/*навигация*/
+.nav {
+	font-size: 24px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	padding: 5%;
+}
+.nav_link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav_link:hover {
+	text-decoration: underline;
+	color: #6c7279;
+}
